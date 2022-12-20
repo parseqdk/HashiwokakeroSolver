@@ -1282,14 +1282,14 @@ void fun_test( int a ) {
 
 int main( int argc, char *argv[] ) {
 
-#if 0 || defined (TEST_ALL) || defined TEST_AA
+#if 1 || defined (TEST_ALL) || defined TEST_AA
   HashiPlay hashiPlay1 { hashi1_Field_12_8, 12, 8 };       // Ok with a litte AA
 
   hashiPlay1.initHashiPlay();
   hashiPlay1.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_AA
+#if 1 || defined (TEST_ALL) || defined TEST_AA
   HashiPlay hashiPlay2 { hashi2_Field_12_8, 12, 8 };       // Ok with AA
 
   hashiPlay2.initHashiPlay();
@@ -1310,21 +1310,21 @@ int main( int argc, char *argv[] ) {
   hashiPlay4.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_AA
+#if 1 || defined (TEST_ALL) || defined TEST_AA
   HashiPlay hashiPlay5 { hashi5_Field_15_22, 15, 22 };     // Ok with AA, test for AA case 4?
 
   hashiPlay5.initHashiPlay();
   hashiPlay5.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_AA
+#if 1 || defined (TEST_ALL) || defined TEST_AA
   HashiPlay hashiPlay6 { hashi6_Field_13_13, 13, 13 };     // Ok with AA
 
   hashiPlay6.initHashiPlay();
   hashiPlay6.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_DA
+#if 1 || defined (TEST_ALL) || defined TEST_DA
   HashiPlay hashiPlay7 { hashi7_Field_10_7, 10, 7 };       // Ok with 1xDA
 
   hashiPlay7.initHashiPlay();
@@ -1345,14 +1345,14 @@ int main( int argc, char *argv[] ) {
   hashiPlay9.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_DA
+#if 1 || defined (TEST_ALL) || defined TEST_DA
   HashiPlay hashiPlay10 { hashi10_Field_11_11, 11, 11 };   // Ok with 2xDA;  Hashi, difficult #76, 
 
   hashiPlay10.initHashiPlay();
   hashiPlay10.hashiSolve();
 #endif
 
-#if 0 || defined (TEST_ALL) || defined TEST_DA
+#if 1 || defined (TEST_ALL) || defined TEST_DA
   HashiPlay hashiPlay11 { hashi11_Field_19_13, 19, 13 };   // Ok with 18xAA; 4xDA  Hashi together 13x19 #1
 
   hashiPlay11.initHashiPlay();                             // requires DA case 3:
